@@ -1,0 +1,8 @@
+version: "3.9"  
+services:
+  pwn:
+    build: ./
+    ports:
+      - "1007:1007"
+    restart: unless-stopped
+    read_only: true

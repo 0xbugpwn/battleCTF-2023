@@ -1,0 +1,14 @@
+version: '2'
+services:
+  useragent:
+    image: vulhub/php:8.1-backdoor
+    volumes:
+      - ./index.php:/var/www/html/index.php
+      - ./music.jpg:/var/www/html/music.jpg
+      - ./flag.txt:/etc/flag.txt
+    ports:
+      - "30001:80"
+    read_only: true
+    tmpfs:
+      - /run/apache2
+      - /run/lock

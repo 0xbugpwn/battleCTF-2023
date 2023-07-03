@@ -1,0 +1,3 @@
+You're working as a data analyst for a large corporation, and you've just received a new challenge from your boss. The company has an important file that has become corrupted, and they need you to recover the lost data before it's too late.
+
+Your task is to analyze the corrupted file and recover as much data as possible. The file contains sensitive financial data that's essential for the company's operations, and you'll need to work quickly and efficiently to recover the lost information.

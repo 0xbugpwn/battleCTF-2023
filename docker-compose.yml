@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  mysql:
+    image: mariadb
+    restart: always
+    volumes:
+      - ./mysql/ctf.sql:/docker-entrypoint-initdb.d/ctf.sql
+      - ./mysql/own.cnf:/etc/my.cnf.d/own.cnf
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - HOSTNAME=mysql
+    hostname: mysql
+    ports:
+      - '3306:3306'
+  jms:
+    build: ./Misc/JMS/
+    ports:
+      - "30002:80"
+    restart: unless-stopped

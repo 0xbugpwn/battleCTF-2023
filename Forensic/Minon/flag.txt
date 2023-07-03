@@ -1,0 +1,15 @@
+battleCTF{StatueName_Height_Envelope_Weight_InaugurationDate_PhotoDatetime}
+
+StatueName : statue name
+
+Height: statue height
+
+Envelope: statue envolope
+
+Weight: statue Weight
+
+InaugurationDate: statue inauguration date. format: DD/MM/YYYY ex: 30/02/2001
+
+PhotoDatetime: when photo is take. format: YYYY/MM/DD:HH:MM:SS  ex:2005/02/10:10:02:25
+
+battleCTF{MonumentAmazone_30_Bronze_150_30/07/2022_2023/05/25:12:09:35}

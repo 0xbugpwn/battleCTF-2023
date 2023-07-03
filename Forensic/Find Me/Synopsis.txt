@@ -1,0 +1,5 @@
+Author: C4Xp3r
+
+You're working as an intern at a cybersecurity firm, and your boss has given you a challenge to test your packet sniffing skills. The company's IT department suspects that someone on the network is using a weak password, and they've asked you to find it before the boss does.
+
+Your task is to analyze the pcap file provided by the IT department and locate the password before your boss does. The pcap file contains network traffic captured from a computer connected to the company's network. The password has been hidden somewhere within the packets, and you'll need to use your packet sniffing skills to find it.

@@ -1,0 +1,8 @@
+version: '3'
+services:
+  crypto:
+    build: ./
+    ports:
+      - 20001:20001
+    restart: unless-stopped
+    read_only: true

@@ -1,0 +1,13 @@
+Make_Camera Model_Front/Back_Country_City
+
+Make : Fabricant
+
+Camera Model: if the camera model is Iphone 7 MAX, so put Iphone7MAX
+
+Front/Back: put if it's Front or Back camera which is used
+
+Country: The country where the photo is take
+
+City: the City
+
+battleCTF{Google_Pixel4XL_Back_Benin_Cotonou}

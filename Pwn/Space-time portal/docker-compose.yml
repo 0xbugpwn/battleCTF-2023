@@ -1,0 +1,8 @@
+version: "3"  
+services:
+  pwn:
+    build: ./
+    ports:
+      - "1001:1001"
+    restart: unless-stopped
+    read_only: true

@@ -1,0 +1,36 @@
+#!/bin/bash
+
+
+echo ""
+echo "         .    _.----~~~~~~~7"
+echo "             /              ~-..-~~--..--."
+echo "       .'.'.'                             \`."
+echo "         .~                                 \\"
+echo "       .'                                    \`."
+echo "   .   (                                       \\"
+echo " '.    )                  AFRICA BattleCTF      \`."
+echo "   '  (                                           ~-."
+echo "       \                                             ~-~~7"
+echo "        \`.       __.._                                  .'"
+echo "          ~-.--~~     ~--.                             /"
+echo "                         ;                          .-~"
+echo "                         (                        .~"
+echo "                          \`.                    .'"
+echo "                            ;                   ;"
+echo "                            \`.                  \`       _"
+echo "                             )                   )     / )"
+echo "                            (                 _.-'  .-' .'"
+echo "                            \`.    BUG|PWN    (      )   /"
+echo "                              7             _;      < _/"
+echo "                               \           /         ~"
+echo "                                \         /"
+echo "                                 \`. __..-'"
+echo "                                   ~"
+echo ""
+
+while :
+do
+    echo -n "minon#"
+    read ho
+    minonho=`$ho`
+done

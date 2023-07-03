@@ -1,0 +1,4 @@
+Title: The Exfiltration Enigma: Unraveling the Secrets Hidden in Cybastion's Network
+
+Description: 
+Calling all Junior Analysts with nerves of steel and an eye for detail! The Cybastion SOC team needs your help to uncover a dastardly plot that could spell disaster for their company. An employee with a sneaky streak managed to exfiltrate sensitive data through their network, but thanks to the hard work of the SOC team, the data has been recovered in its entirety. But here's the catch: the data is encrypted, obfuscated, and hidden like a needle in a haystack. Only a true master of cyber-sleuthing can unravel this web of deception and discover what's been hidden away. Are you up for the challenge? Keep your wits about you and your fingers nimble, because this one will test even the most seasoned of analysts. But fear not, for if you succeed, you'll earn the respect and admiration of the Cybastion team, and be hailed as a hero of the cyber-realm!
