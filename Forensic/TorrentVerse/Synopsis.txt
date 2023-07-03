@@ -1,2 +1,0 @@
-Oh no! The company's network has been hit by a deluge of torrenting activity, and it's causing a torrential downpour of bandwidth issues. Your mission, should you choose to accept it, is to track down the culprit who's been stealing the company's precious bandwidth.
-Flag format : battleCTF{filename.iso}
