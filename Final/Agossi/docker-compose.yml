@@ -1,0 +1,8 @@
+version: '3'
+services:
+ agossi:
+   build: ./
+   container_name: agossi
+   ports:
+    - "8083:80"
+   restart: always

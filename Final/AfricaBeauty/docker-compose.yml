@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  server:
+    container_name: beauty
+    build: 
+      context: .
+    ports:
+      - 8081:80
+    volumes:
+      - ./pilcve:/var/www/pilcve:ro
+    restart: always
+
+

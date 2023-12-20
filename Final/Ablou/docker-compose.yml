@@ -1,0 +1,7 @@
+version: '2'
+services:
+ apache:
+   build: .
+   container_name: ablou
+   ports:
+    - "8080:80"

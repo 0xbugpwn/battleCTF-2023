@@ -1,0 +1,15 @@
+version: '2'
+services:
+ ssrf:
+   build: ./ssrf
+   read_only: true
+   tmpfs:
+    - /run/lock
+    - /run/apache2
+   depends_on:
+    - cobaltinjection
+   ports:
+    - "8085:80"
+ cobaltinjection:
+   build: ./cobalt
+   restart: unless-stopped

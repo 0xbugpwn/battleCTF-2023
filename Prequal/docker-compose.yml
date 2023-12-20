@@ -1,0 +1,48 @@
+version: '2'
+
+services:
+  mysql:
+    image: mariadb
+    restart: always
+    volumes:
+      - ./mysql/ctf.sql:/docker-entrypoint-initdb.d/ctf.sql
+      - ./mysql/own.cnf:/etc/my.cnf.d/own.cnf
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - HOSTNAME=mysql
+    hostname: mysql
+    ports:
+      - '3306:3306'
+  timing:
+    build: ./Web/Perfect Timing/
+    ports:
+      - "8087:80"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /run/apache2
+      - /run/lock
+      - /tmp
+  hebiosso:
+    build: ./Web/Hebiosso injection/
+    ports:
+      - "8088:80"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /run/apache2
+      - /run/lock
+  weakness:
+    build: ./Web/Common Weakness/
+    ports:
+      - "8089:80"
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /run/apache2
+      - /run/lock
+  jms:
+    build: ./Misc/JMS/
+    ports:
+      - "30002:80"
+    restart: unless-stopped

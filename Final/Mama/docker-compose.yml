@@ -1,0 +1,14 @@
+version: '2'
+services:
+ mama:
+   image: php:apache
+   container_name: mama
+   volumes:
+    - ./www:/var/www/html
+    - ./conf/docker-php.conf:/etc/apache2/conf-enabled/docker-php.conf
+    - ./start.sh:/var/www/start.sh
+    - ./flag/flag.txt:/etc/flag000000000000000000000.txt:ro
+    - ./flag/root.txt:/root/root.txt:ro
+   command: /bin/sh /var/www/start.sh
+   ports:
+    - "8086:80"

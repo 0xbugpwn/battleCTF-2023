@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BUG|PWN CON 0x1 submission</title>
+    <style>
+        body {
+            background-image: url("own.jpg");
+			background-size: cover;
+			background-position: center center;
+			font-family: Arial, sans-serif;
+			color: #fff;
+			margin: 0;
+			padding: 0;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .file-input {
+            margin-bottom: 20px;
+        }
+
+        .file-input label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .file-input input[type="file"] {
+            display: none;
+        }
+
+        .file-input .btn-upload {
+            display: inline-block;
+            background-color: #4caf50;
+            color: #ffffff;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .file-input .btn-upload:hover {
+            background-color: #45a049;
+        }
+
+        .file-input .file-name {
+            font-style: italic;
+            color: #888888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>BUG|PWN CON 0x1 submission - File Upload</h2>
+
+		<form action="" method="POST" enctype="multipart/form-data">
+		    <label for="zipFile">Select a file:</label><br><br>
+		    <input type="file" name="file_upload" id="zipFile"><br><br>
+		    <button type="submit">Upload</button>
+		</form>
+    
+    
+    </div>
+	<!-- battleCTF{php_wahala_3484f742ea2636f3932a31ae809422bd} -->
+</body>
+</html>
