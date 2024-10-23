@@ -1,6 +1,6 @@
-# Africa battleCTF 2023 prequal
+# Africa battleCTF 2023
 
-> This repository contains challenges from Africa battleCTF 2023 prequal.
+> This repository contains challenges from Africa battleCTF 2023.
 
 ![Scoreboard](scoreboard.png)
 
